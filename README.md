@@ -24,10 +24,10 @@ A / B は Web Gamepad API の standard mapping（A = 下のボタン、B = 右�
 
 | 面 | 仕掛け | 背景 | 敵 | BGM |
 | --- | --- | --- | --- | --- |
-| 1 | 標準 | NIGHT（ビルの窓） | SENTRY | NOIR |
-| 2 | ＋照明が暗くなったり明るくなったりする | DUSK（ブラインド） | BRUTE | NOIR / DUSK |
+| 1 | 標準 | NIGHT（ビルの窓） | CREEPER（ドット絵・全身） | NOIR |
+| 2 | ＋照明が暗くなったり明るくなったりする | DUSK（ブラインド） | CREEP HEAD（ドット絵・頭部） | NOIR / DUSK |
 | 3 | ＋エレベーターの速度が2倍 | DEEP SEA（気泡） | DIVER | NOIR / DEEP |
-| 4 | ＋敵を倒すのに2発必要 | BIOHAZARD（斜線） | CREEPER | NOIR / WIRE |
+| 4 | ＋敵を倒すのに2発必要 | BIOHAZARD（斜線） | STALKER | NOIR / WIRE |
 | 5 | ＋エレベーターが隣り合う | REACTOR（配管） | MAGMA | NOIR / BURN |
 | 6 | 2 ＋ 3 | CRYO（氷紋） | GLACIER | NOIR / FROST |
 | 7 | 4 ＋ 5 | VOID（回路） | WRAITH | NOIR / VOID |
@@ -35,6 +35,8 @@ A / B は Web Gamepad API の standard mapping（A = 下のボタン、B = 右�
 
 - エレベーター・扉・脱出口の位置は全8面ですべて異なる。階数も5階から9階まで増えていく
 - 敵のデザイン（シルエット・歩き方・配色）と背景のデザインは面ごとに固有
+- 1面・2面の敵は文字グリッドから描くドット絵スプライト（画像ファイル不要）。1面は歩くたびに跳ね、2面は宙に浮いて上下する
+- 敵を倒したときの爆散パーティクルは、その面の敵と同じ色になる
 - 2発必要な敵は頭上に装甲ゲージが出て、1発当てると装甲が裂ける
 - 隣接エレベーターの面は、2基の間の足場が狭く乗り降りがシビアになる
 - 8面をクリアするとエンディング（ALL CLEAR）。残機ボーナスを加えた最終スコアが表示される
