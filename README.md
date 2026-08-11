@@ -24,7 +24,7 @@ A / B は Web Gamepad API の standard mapping（A = 下のボタン、B = 右�
 
 | 面 | 仕掛け | 背景 | 敵 | BGM |
 | --- | --- | --- | --- | --- |
-| 1 | 標準 | NIGHT（ビルの窓） | CREEPER（ドット絵・全身） | NOIR |
+| 1 | 標準 | NIGHT（ビルの窓） | SENTINEL（ドット絵・灰色の人型） | NOIR |
 | 2 | ＋照明が暗くなったり明るくなったりする | DUSK（ブラインド） | CREEP HEAD（ドット絵・頭部） | NOIR / DUSK |
 | 3 | ＋エレベーターの速度が2倍 | DEEP SEA（気泡） | DIVER | NOIR / DEEP |
 | 4 | ＋敵を倒すのに2発必要 | BIOHAZARD（斜線） | STALKER | NOIR / WIRE |
